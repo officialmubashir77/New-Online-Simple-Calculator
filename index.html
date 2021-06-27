@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <h1 id="head-online-calc">ONLINE CALCULATOR</h1>
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+    <form action="">
+
+        <input type="text" readonly class="input-text" id="input">
+
+
+        <div class="container">
+
+        </div>
+
+        <div class="table">
+
+            <table>
+
+                <tr>
+                    <td onclick="getValue(7)">7</td>
+                    <td onclick="getValue(8)">8</td>
+                    <td onclick="getValue(9)">9</td>
+                    <td onclick="getValue('+')">+</td>
+                </tr>
+
+                <br>
+                <tr>
+                    <td onclick="getValue(4)">4</td>
+                    <td onclick="getValue(5)">5</td>
+                    <td onclick="getValue(6)">6</td>
+                    <td onclick="getValue('-')">-</td>
+                </tr>
+
+                <br>
+                <tr>
+                    <td onclick="getValue(1)">1</td>
+                    <td onclick="getValue(2)">2</td>
+                    <td onclick="getValue(3)">3</td>
+                    <td onclick="getValue('*')">*</td>
+                </tr>
+
+                <br>
+                <tr>
+                    <td onclick="getValue(0)">0</td>
+                    <td onclick="getValue('.')">.</td>
+                    <td onclick="getValue('/')">/</td>
+                    <td id="equal" onclick="performeval()">=</td>
+                </tr>
+
+                <br>
+
+
+            </table>
+
+
+
+        </div>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+body{
+margin: 0px;
+background: linear-gradient(90deg, rgba(0,184,232,1) 28%, rgba(0,243,130,1) 74%);
+
+
+}
+
+
+
+#head-online-calc{
+
+color: black;
+background-color: whitesmoke;
+word-spacing: 20px;
+text-align: center  ;
+letter-spacing: 5px;
+font-family: 'Dela Gothic One', cursive;
+margin-left: 400px;
+margin-right: 400px;
+border-radius: 8px;
+}
+
+
+.input-text{
+
+width: 350px;
+height: 120px;
+margin-left: 505px;
+text-align: right;
+background-color: #ff060a;
+color: #ffffff;
+border-radius: 10px 10px 0px 0px;
+outline: none;
+font-family:'Open Sans', sans-serif ;
+font-size: 35px;
+}
+
+
+
+
+.container{
+
+background-color: #ffffff;
+height: 369px;
+width: 356px;
+margin-left: 506px;
+text-align:  center;
+outline: none;
+border-radius:  0px 0px 10px 10px;
+
+
+
+}
+
+table tr td {
+
+    font-size: x-large;
+border: 2px solid ;
+border-radius: 50%;
+width: 70px;
+height: 70px;
+text-align: center;
+background-color: #ecedef;    
+color: #5c5354;
+/* font-family: 'Dela Gothic One', cursive; */
+font-family: 'Open Sans', sans-serif;
+font-weight: 20px;
+
+}
+
+
+table{
+
+    border-spacing: 8px;
+    margin-left: 513px  ;
+    margin-top: -430px;
+
+}
+
+
+
+#equal{
+
+background-color:  #ff060a;
+outline: none;
+color: white;
+
+}
+
+
